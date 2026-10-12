@@ -32,3 +32,6 @@ TypeScript, five catalogue logic tests and production compilation passed before 
 
 ## Collection and image-motion release
 40 rendered route/width checks passed: home, buy, contact and residence at 320, 360, 375, 390, 430, 768, 1024, 1366, 1440 and 1920. No document overflow or horizontally clipped heading was found. Desktop collage and collection were visually inspected; collage text contrast was corrected. Catalogue Borrowdale filtering produced two records; list view, gallery next image (2/4), gallery close, viewing modal fields and before/after keyboard End (100) responded. House scrubbing and discovery link were exercised. No browser error logs were recorded in this review. Submission/storage, admin CRUD and finder have the earlier end-to-end verification above; they were not changed in this release. Five catalogue tests and final production build passed.
+
+## Glass revision
+Production build passed. 21 rendered checks across home, buy and contact at 320, 390, 430, 768, 1024, 1366 and 1920 found no horizontal overflow or clipped heading. Desktop progress glass and mobile 390 hero were visually inspected. Mobile menu opened and closed successfully. Existing data and form logic unchanged.

@@ -43,3 +43,6 @@ Typography has been increased across practical controls and body labels. The nav
 
 ### Selective supplied-image layout refinement
 The supplied long-form reference informs two homepage areas only: a compact staggered lifestyle collection with an editorial introduction, and a forest architectural collage beside the brand philosophy. Existing construction, search, featured residences, cinematic living, development and seller sections retain their own compositions. Shared Photo components reveal on first viewport entry using an IntersectionObserver and opacity/clip transition, with observer cleanup and reduced-motion support. Links retain actual filtered destinations.
+
+### Smartview-informed architectural glass
+Inspected the earlier Smartview source's rounded service imagery, asymmetric gallery corners, translucent hero information and compact scrolled header. Adapted these principles to the forest/ivory property identity: selective frosted progress controls, a floating scrolled navigation capsule, softly transparent search and badges, pill actions, and varied curved photo silhouettes. Body content stays readable on opaque surfaces. Mobile spacing and a no-backdrop-filter fallback are included. This is visual refinement, not a claim of a particular commercial valuation.
