@@ -402,3 +402,207 @@
     opacity: 1;
   }
 }
+/* Selective image-led collection and philosophy compositions. */
+.collection-band {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 38px;
+  background: #eeeee7;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.collection-band .section-heading {
+  display: block;
+  margin: 0;
+}
+.collection-band h2 {
+  font-size: clamp(30px, 3vw, 44px);
+}
+.collection-band .section-heading > p {
+  margin-top: 24px;
+  font-size: 15px;
+}
+.collection-band .lifestyle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: none;
+  gap: 14px;
+  align-items: start;
+}
+.collection-band .lifestyle {
+  grid-column: auto;
+  grid-row: auto;
+  height: 320px;
+  min-height: 0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.collection-band .lifestyle:nth-child(even) {
+  margin-top: 28px;
+}
+.collection-band .lifestyle > div:last-child {
+  padding: 20px;
+}
+.collection-band .lifestyle h3 {
+  font-size: 25px;
+  line-height: 1.12;
+}
+.collection-band .lifestyle .eyebrow {
+  font-size: 11px;
+  line-height: 1.4;
+}
+.collection-band .lifestyle svg {
+  width: 20px;
+}
+.philosophy-scene {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 7vw;
+  background: var(--forest);
+  color: var(--ivory);
+  align-items: center;
+}
+.philosophy-scene .architecture-collage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0;
+  width: auto;
+}
+.architecture-collage .photo {
+  height: 210px;
+}
+.architecture-collage .photo:nth-child(2) {
+  margin-top: 32px;
+}
+.architecture-collage .photo:nth-child(3) {
+  margin-top: -32px;
+}
+.philosophy-scene .philosophy-copy {
+  display: block;
+  margin: 0;
+  width: auto;
+}
+.philosophy-copy > div {
+  margin-top: 28px;
+}
+.philosophy-copy p {
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 460px;
+}
+.philosophy-scene h2 {
+  font-size: clamp(37px, 4.2vw, 64px);
+}
+.philosophy-scene .eyebrow {
+  color: #c3d1c6;
+}
+.philosophy-scene .text-link {
+  color: var(--ivory);
+  margin-top: 24px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .photo-revealed {
+    animation: photo-unveil 1000ms cubic-bezier(0.18, 0.6, 0.22, 1) both;
+  }
+  .architecture-collage .photo:nth-child(2) {
+    animation-delay: 120ms;
+  }
+  .architecture-collage .photo:nth-child(3) {
+    animation-delay: 180ms;
+  }
+  .architecture-collage .photo:nth-child(4) {
+    animation-delay: 240ms;
+  }
+}
+@keyframes photo-unveil {
+  from {
+    opacity: 0.15;
+    clip-path: inset(5% 0 5% 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0);
+  }
+}
+@media (max-width: 1100px) {
+  .collection-band {
+    grid-template-columns: 190px minmax(0, 1fr);
+    gap: 24px;
+  }
+  .collection-band .lifestyle-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .collection-band .lifestyle {
+    height: 270px;
+  }
+  .architecture-collage .photo {
+    height: 170px;
+  }
+}
+@media (max-width: 760px) {
+  .collection-band {
+    display: block;
+    padding-top: 52px;
+    padding-bottom: 52px;
+  }
+  .collection-band .section-heading {
+    margin-bottom: 28px;
+  }
+  .collection-band .lifestyle-grid {
+    gap: 12px;
+  }
+  .collection-band .lifestyle {
+    height: 260px;
+  }
+  .collection-band .lifestyle:nth-child(even) {
+    margin-top: 18px;
+  }
+  .collection-band .lifestyle > div:last-child {
+    padding: 15px;
+  }
+  .collection-band .lifestyle h3 {
+    font-size: 23px;
+  }
+  .collection-band .lifestyle .eyebrow {
+    font-size: 10px;
+  }
+  .philosophy-scene {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: stretch;
+  }
+  .architecture-collage .photo {
+    height: 160px;
+  }
+  .philosophy-scene .architecture-collage {
+    display: grid;
+  }
+  .philosophy-scene h2 {
+    font-size: 39px;
+  }
+  .philosophy-copy p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .collection-band .lifestyle {
+    height: 240px;
+  }
+  .collection-band .lifestyle h3 {
+    font-size: 20px;
+  }
+  .architecture-collage .photo {
+    height: 135px;
+  }
+}
+.philosophy-scene h2 em {
+  color: #c8d5c7;
+}
+.philosophy-scene .philosophy-copy p {
+  color: #e4eae2;
+}
+.philosophy-scene .philosophy-copy .eyebrow {
+  color: #c3d1c6;
+}

@@ -172,7 +172,10 @@ export function Home() {
         </h2>
         <SearchForm />
       </section>
-      <section className="section lifestyle-section">
+      <section
+        className="section lifestyle-section collection-band"
+        id="lifestyles"
+      >
         <div className="section-heading">
           <div>
             <Eyebrow>03 / A HOME FOR EVERY CHAPTER</Eyebrow>
@@ -260,19 +263,42 @@ export function Home() {
           </p>
         </div>
       </section>
-      <section className="about-teaser section">
-        <Eyebrow>05 / OUR APPROACH</Eyebrow>
-        <h2>
-          Property, with a<br />
-          <em>more considered approach.</em>
-        </h2>
-        <div>
-          <p>
-            Jaeger Properties is a concept real estate brand built around
-            beautiful homes, thoughtful presentation and a more intuitive
-            property-search experience.
-          </p>
-          <TextLink href="/about">DISCOVER OUR APPROACH</TextLink>
+      <section className="about-teaser section philosophy-scene" id="approach">
+        <div
+          className="architecture-collage"
+          aria-label="Architectural inspiration"
+        >
+          <Photo
+            src="/images/property-03.webp"
+            alt="Contemporary home architectural inspiration"
+          />
+          <Photo
+            src="/images/property-06.webp"
+            alt="Natural light and considered interiors"
+          />
+          <Photo
+            src="/images/property-07.webp"
+            alt="Garden-connected family residence inspiration"
+          />
+          <Photo
+            src="/images/property-08.webp"
+            alt="Residential material and exterior inspiration"
+          />
+        </div>
+        <div className="philosophy-copy">
+          <Eyebrow>05 / OUR APPROACH</Eyebrow>
+          <h2>
+            Property, with a<br />
+            <em>more considered approach.</em>
+          </h2>
+          <div>
+            <p>
+              Jaeger Properties is a concept real estate brand built around
+              beautiful homes, thoughtful presentation and a more intuitive
+              property-search experience.
+            </p>
+            <TextLink href="/about">DISCOVER OUR APPROACH</TextLink>
+          </div>
         </div>
       </section>
       <section className="seller-section">

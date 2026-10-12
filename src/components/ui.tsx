@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowUpRight,
   Heart,
@@ -24,8 +25,32 @@ export function Photo({
   priority?: boolean;
   sizes?: string;
 }) {
+  const frame = useRef<HTMLDivElement>(null);
+  const [revealed, setRevealed] = useState(false);
+  useEffect(() => {
+    const element = frame.current;
+    if (
+      !element ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    )
+      return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setRevealed(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.08 },
+    );
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, [src]);
   return (
-    <div className={`photo ${className}`}>
+    <div
+      ref={frame}
+      className={`photo ${className} ${revealed ? "photo-revealed" : ""}`}
+    >
       <Image
         src={src}
         alt={alt}
