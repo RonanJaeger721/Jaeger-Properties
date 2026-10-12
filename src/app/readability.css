@@ -1,0 +1,404 @@
+/* Open editorial navigation, without an enclosing panel. */
+.site-header,
+.site-header.on-dark {
+  left: 5vw;
+  right: 5vw;
+  top: 22px;
+  padding: 10px 0;
+  background: transparent;
+  border: 0;
+  backdrop-filter: none;
+  gap: 25px;
+}
+.site-header.scrolled {
+  background: var(--ivory);
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 18px 5vw;
+  box-shadow: 0 1px 0 #283d3418;
+}
+.site-header.on-dark.scrolled {
+  background: #10231ce8;
+  box-shadow: none;
+  backdrop-filter: blur(12px);
+}
+.desktop-nav {
+  gap: 26px;
+}
+.desktop-nav a {
+  font-size: 14px;
+}
+.list-link {
+  font-size: 13px;
+}
+.nav-cta {
+  background: none !important;
+  color: inherit !important;
+  border-bottom: 1px solid currentColor;
+  padding: 9px 0;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  gap: 12px;
+}
+.nav-actions {
+  gap: 12px;
+}
+.brand > span {
+  font-size: 25px;
+}
+.brand > span > span {
+  font-size: 10px;
+}
+.monogram {
+  width: 44px;
+  height: 44px;
+}
+.house-story .hero-title {
+  width: 530px;
+  max-width: 48vw;
+}
+.house-story .hero-title h1 {
+  font-size: clamp(40px, 3.65vw, 57px);
+  max-width: 530px;
+  line-height: 1.06;
+}
+.house-story .scene-kicker {
+  font-size: 12px;
+}
+.house-story .hero-title .scene-chapter {
+  font-size: 24px;
+}
+.house-story .hero-title > p:not(.scene-chapter) {
+  font-size: 15px;
+  max-width: 400px;
+}
+.house-story .scroll-invite {
+  font-size: 12px;
+}
+.house-story .hero-actions .button {
+  font-size: 12px;
+  min-height: 52px;
+}
+.house-story .scene-top {
+  font-size: 11px;
+}
+.house-story .scene-location span {
+  font-size: 10px;
+}
+.house-story .stage-track button {
+  font-size: 12px;
+}
+.house-story .scene-disclosure {
+  font-size: 10px;
+}
+.house-story .skip-story {
+  font-size: 11px;
+}
+.motion-toggle {
+  font-size: 10px;
+}
+.build-control {
+  position: absolute;
+  right: 5vw;
+  bottom: 148px;
+  width: 290px;
+  z-index: 5;
+  color: white;
+}
+.build-control label {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.build-control label span {
+  display: block;
+  font-size: 10px;
+  margin-top: 4px;
+  color: #e0e8df;
+}
+.build-control input {
+  width: 100%;
+  height: 24px;
+  margin-top: 13px;
+  accent-color: #b99a70;
+  cursor: ew-resize;
+}
+@media (max-width: 1250px) {
+  .site-header {
+    gap: 15px;
+  }
+  .desktop-nav {
+    gap: 17px;
+  }
+  .desktop-nav a {
+    font-size: 13px;
+  }
+  .nav-actions {
+    gap: 5px;
+  }
+  .brand > span {
+    font-size: 23px;
+  }
+  .build-control {
+    width: 230px;
+  }
+  .house-story .hero-title {
+    max-width: 52vw;
+  }
+}
+@media (max-width: 1024px) {
+  .site-header {
+    top: 18px;
+  }
+  .site-header .nav-cta {
+    margin-left: 10px;
+  }
+  .build-control {
+    width: 210px;
+  }
+  .house-story .hero-title h1 {
+    font-size: 43px;
+  }
+  .house-story .stage-track button {
+    font-size: 11px;
+  }
+}
+@media (max-width: 760px) {
+  .site-header,
+  .site-header.on-dark {
+    left: 6vw;
+    right: 6vw;
+    top: 15px;
+    padding: 7px 0;
+    gap: 12px;
+  }
+  .site-header.scrolled,
+  .site-header.on-dark.scrolled {
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 15px 6vw;
+  }
+  .brand > span {
+    font-size: 23px;
+  }
+  .brand > span > span {
+    font-size: 9px;
+  }
+  .monogram {
+    width: 37px;
+    height: 37px;
+  }
+  .menu-toggle {
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+  }
+  .house-story .hero-title,
+  .house-story .stage-5 .hero-title {
+    max-width: 88%;
+    width: 88%;
+    bottom: 184px;
+  }
+  .house-story .hero-title h1 {
+    font-size: clamp(33px, 8.5vw, 42px);
+    max-width: 100%;
+  }
+  .house-story .hero-title .scene-chapter {
+    font-size: 21px;
+  }
+  .house-story .scene-kicker {
+    font-size: 11px;
+  }
+  .house-story .scroll-invite {
+    font-size: 10px;
+  }
+  .house-story .hero-title > p:not(.scene-chapter) {
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  .house-story .hero-actions .button {
+    font-size: 10px;
+    padding: 12px;
+    gap: 8px;
+    min-height: 46px;
+  }
+  .house-story .scene-top {
+    font-size: 9px;
+    top: 95px;
+  }
+  .house-story .scene-disclosure {
+    font-size: 8px;
+    max-width: 88%;
+    line-height: 1.4;
+    bottom: 15px;
+  }
+  .house-story .stage-track button {
+    font-size: 0;
+  }
+  .house-story .stage-track button.active > span:last-child {
+    font-size: 11px;
+  }
+  .house-story .motion-toggle {
+    font-size: 9px;
+    top: 125px;
+  }
+  .build-control {
+    left: 6vw;
+    right: 6vw;
+    width: auto;
+    bottom: 97px;
+  }
+  .build-control label {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+  }
+  .build-control label span {
+    font-size: 8px;
+    margin-top: 0;
+    text-align: right;
+  }
+  .build-control input {
+    margin-top: 7px;
+    height: 23px;
+  }
+  .house-story .house-images {
+    inset: 15% 0 23%;
+  }
+  .mobile-navigation nav a {
+    font-size: 36px;
+  }
+  .mobile-navigation nav a small {
+    font-size: 12px;
+  }
+  .mobile-navigation .demo-note {
+    font-size: 12px;
+  }
+  .property-title,
+  .results-grid .property-title {
+    font-size: 32px;
+  }
+  .property-location {
+    font-size: 13px;
+  }
+  .stats,
+  .similar-grid .stats {
+    font-size: 12px;
+  }
+  .property-price {
+    font-size: 16px;
+  }
+  .property-price small {
+    font-size: 12px;
+  }
+  .property-badge {
+    font-size: 10px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  .text-link {
+    font-size: 12px;
+  }
+  .demo-strip,
+  .demo-note {
+    font-size: 12px;
+  }
+  .enquiry-form .demo-note {
+    font-size: 12px;
+  }
+  .enquiry-form .form-row label,
+  label {
+    font-size: 13px;
+  }
+  input:not([type="checkbox"]):not([type="range"]):not([type="file"]),
+  select,
+  textarea {
+    font-size: 16px;
+  }
+  .checkbox {
+    font-size: 12px;
+  }
+  .form-footnote {
+    font-size: 11px;
+  }
+  .footer-top > nav {
+    font-size: 13px;
+  }
+  .footer-bottom {
+    font-size: 11px;
+  }
+  .agency-callout .text-link {
+    font-size: 12px;
+  }
+  .agency-callout p:last-child {
+    font-size: 13px;
+  }
+}
+@media (max-width: 360px) {
+  .house-story .hero-title h1 {
+    font-size: 33px;
+  }
+  .house-story .hero-actions .button {
+    font-size: 9px;
+  }
+  .house-story .hero-actions {
+    gap: 6px;
+  }
+  .build-control label span {
+    font-size: 7px;
+  }
+  .house-story .hero-title .scene-chapter {
+    font-size: 19px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .brand .monogram {
+    animation: mark-arrive 850ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .brand > span {
+    animation: wordmark-arrive 850ms 100ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .desktop-nav a {
+    transition:
+      color 200ms ease,
+      opacity 200ms ease;
+  }
+  .desktop-nav:has(a:hover) a:not(:hover) {
+    opacity: 0.55;
+  }
+  .build-control input {
+    transition: filter 200ms ease;
+  }
+  .build-control input:hover {
+    filter: brightness(1.25);
+  }
+  .living-section {
+    will-change: clip-path;
+  }
+}
+@keyframes mark-arrive {
+  from {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0;
+  }
+  to {
+    clip-path: inset(0);
+    opacity: 1;
+  }
+}
+@keyframes wordmark-arrive {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

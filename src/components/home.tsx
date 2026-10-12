@@ -63,6 +63,51 @@ export function Home() {
     gsap.registerPlugin(ScrollTrigger);
     const ctx = gsap.context(() => {
       gsap.fromTo(
+        ".living-section",
+        {
+          clipPath: "inset(6% 5% 6% 5% round 4px)",
+        },
+        {
+          clipPath: "inset(0% 0% 0% 0% round 0px)",
+          ease: "none",
+          scrollTrigger: {
+            trigger: ".living-section",
+            start: "top 85%",
+            end: "top 15%",
+            scrub: 0.7,
+          },
+        },
+      );
+      gsap.fromTo(
+        ".living-section h2",
+        { y: 42, opacity: 0.35 },
+        {
+          y: 0,
+          opacity: 1,
+          ease: "none",
+          scrollTrigger: {
+            trigger: ".living-section",
+            start: "top 65%",
+            end: "top 15%",
+            scrub: 0.6,
+          },
+        },
+      );
+      gsap.fromTo(
+        ".development-photo img",
+        { scale: 1.12 },
+        {
+          scale: 1,
+          ease: "none",
+          scrollTrigger: {
+            trigger: ".development-photo",
+            start: "top bottom",
+            end: "bottom center",
+            scrub: 0.7,
+          },
+        },
+      );
+      gsap.fromTo(
         ".living-section .photo",
         { yPercent: -4, scale: 1.08 },
         {

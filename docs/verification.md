@@ -26,3 +26,6 @@
 This is browser-local prototype storage, not cross-device persistence or authenticated production CMS. No real enquiry delivery, agent contact, property availability or booking integration is claimed. Core Web Vitals and physical iPhone/Android performance have not been certified. OS reduced-motion behavior is implemented using media queries; the equivalent still-scene path was exercised with the visitor-facing toggle.
 
 Public deployment evidence is recorded after the GitHub push and Vercel release.
+
+## Latest motion revision
+TypeScript, five catalogue logic tests and production compilation passed before the caption-clock refinement; repeat build recorded during release. Desktop 1440 and mobile 390 scenes were visually reviewed locally, including keyboard range Home/End. A subsequent broad responsive sweep was interrupted by user input, and browser reconnection was rejected by browser security policy. The full previous responsive report therefore describes the preceding release; broad rendered QA for this latest global typography revision is not claimed complete.

@@ -48,8 +48,12 @@ export function Header() {
       if (!raf) raf = requestAnimationFrame(update);
     };
     update();
+    const observer = new ResizeObserver(scroll);
+    const main = document.querySelector("main");
+    if (main) observer.observe(main);
     window.addEventListener("scroll", scroll, { passive: true });
     return () => {
+      observer.disconnect();
       window.removeEventListener("scroll", scroll);
       cancelAnimationFrame(raf);
     };

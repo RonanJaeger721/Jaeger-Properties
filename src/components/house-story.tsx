@@ -11,6 +11,7 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
   const root = useRef<HTMLDivElement>(null),
     scene = useRef<HTMLDivElement>(null),
     controller = useRef<ScrollTrigger | null>(null);
+  const scrubber = useRef<HTMLInputElement>(null);
   const [active, setActive] = useState(0),
     [reduced, setReduced] = useState(false);
   const [manual, setManual] = useState(false);
@@ -26,6 +27,7 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
         setReduced(reduce);
         if (reduce) {
           setActive(5);
+          if (scrubber.current) scrubber.current.value = "1000";
           return;
         }
         const layers = scene.current?.querySelectorAll(".stage-layer");
@@ -33,15 +35,19 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
         gsap.set(layers, { opacity: 0, clipPath: "inset(100% 0% 0% 0%)" });
         gsap.set(layers[0], { opacity: 1, clipPath: "inset(0% 0% 0% 0%)" });
         const timeline = gsap.timeline({
+          onUpdate: () => {
+            const progress = timeline.progress();
+            setActive(Math.min(5, Math.floor(progress * 5 + 0.25)));
+            if (scrubber.current && document.activeElement !== scrubber.current)
+              scrubber.current.value = String(Math.round(progress * 1000));
+          },
           scrollTrigger: {
             trigger: root.current,
             start: "top top",
             end: () => `+=${window.innerHeight * (compact ? 2.8 : 3.8)}`,
             pin: scene.current,
-            scrub: 0.55,
+            scrub: 0.85,
             invalidateOnRefresh: true,
-            onUpdate: (self) =>
-              setActive(Math.min(5, Math.floor(self.progress * 5 + 0.25))),
           },
         });
         for (let i = 1; i < 5; i++) {
@@ -78,6 +84,7 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
   function go(index: number) {
     if (reduced) {
       setActive(index);
+      if (scrubber.current) scrubber.current.value = String(index * 200);
       return;
     }
     const c = controller.current;
@@ -170,6 +177,33 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
         <div className="scene-side" aria-hidden="true">
           THE RESIDENCE · ARCHITECTURAL STUDY 001
         </div>
+        <div className="build-control">
+          <label htmlFor={compact ? "residence-progress" : "home-progress"}>
+            Explore the transformation <span>DRAG OR USE ARROW KEYS</span>
+          </label>
+          <input
+            ref={scrubber}
+            id={compact ? "residence-progress" : "home-progress"}
+            type="range"
+            min="0"
+            max="1000"
+            step="10"
+            defaultValue="0"
+            aria-label="Explore construction progress"
+            onChange={(e) => {
+              const progress = Number(e.target.value) / 1000;
+              if (reduced) setActive(Math.min(5, Math.round(progress * 5)));
+              else if (controller.current)
+                window.scrollTo({
+                  top:
+                    controller.current.start +
+                    (controller.current.end - controller.current.start) *
+                      progress,
+                  behavior: "instant",
+                });
+            }}
+          />
+        </div>
         <div className="stage-navigation">
           <div className="stage-count">
             <span>{String(active + 1).padStart(2, "0")}</span> / 06
@@ -198,8 +232,9 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
         <button
           className="motion-toggle"
           onClick={() => {
-            const top = (root.current?.getBoundingClientRect().top || 0) + window.scrollY;
-            window.scrollTo({top, behavior: 'instant'});
+            const top =
+              (root.current?.getBoundingClientRect().top || 0) + window.scrollY;
+            window.scrollTo({ top, behavior: "instant" });
             setManual(!manual);
           }}
           aria-pressed={manual}

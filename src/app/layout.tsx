@@ -5,6 +5,7 @@ import { DemoProvider } from "@/components/provider";
 import { Header, Footer } from "@/components/chrome";
 import "./globals.css";
 import "./architectural-story.css";
+import "./readability.css";
 const serif = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
