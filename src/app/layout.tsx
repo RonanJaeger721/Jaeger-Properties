@@ -4,6 +4,7 @@ import { Cormorant_Garamond, Manrope } from "next/font/google";
 import { DemoProvider } from "@/components/provider";
 import { Header, Footer } from "@/components/chrome";
 import "./globals.css";
+import "./architectural-story.css";
 const serif = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["400", "500", "600"],

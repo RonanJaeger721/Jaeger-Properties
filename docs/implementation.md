@@ -16,6 +16,10 @@ GSAP maps active chapters and crossfades to scroll progress. It reverses, cleans
 
 ## Functional demo
 
+### Construction-video refinement
+
+The 17.53-second supplied construction recording was reviewed again. Its primary lesson is a house-dominant scene, a consistent setting, small captions near the lower edge, progressive construction reveal and a final approach toward the home. The revised homepage and residence case study use full-width imagery, lower-left editorial captions, bottom-up reveal masks with short crossfades, and a final 1.24x camera push. This is prepared conceptual image choreography, not an interactive 3D model or a record of a built project. The entire property platform remains behind the sequence.
+
 - 12 purchase and six rental samples with USD sample pricing, eight Harare suburbs and illustrative specifications.
 - URL filters, keyword search, sorting, list/grid views, lifestyle destinations and a three-step finder.
 - Individual property URLs, fullscreen galleries, keyboard/swipe controls, local favourites and URL sharing.

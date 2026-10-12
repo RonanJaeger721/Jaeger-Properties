@@ -30,8 +30,8 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
         }
         const layers = scene.current?.querySelectorAll(".stage-layer");
         if (!layers) return;
-        gsap.set(layers, { opacity: 0 });
-        gsap.set(layers[0], { opacity: 1 });
+        gsap.set(layers, { opacity: 0, clipPath: "inset(100% 0% 0% 0%)" });
+        gsap.set(layers[0], { opacity: 1, clipPath: "inset(0% 0% 0% 0%)" });
         const timeline = gsap.timeline({
           scrollTrigger: {
             trigger: root.current,
@@ -47,16 +47,25 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
         for (let i = 1; i < 5; i++) {
           timeline.to(
             layers[i],
-            { opacity: 1, duration: 0.8, ease: "none" },
+            {
+              opacity: 1,
+              clipPath: "inset(0% 0% 0% 0%)",
+              duration: 0.8,
+              ease: "power1.inOut",
+            },
             i - 0.75,
           );
           timeline.to(
             layers[i - 1],
-            { opacity: 0, duration: 0.8, ease: "none" },
-            i - 0.75,
+            { opacity: 0, duration: 0.45, ease: "none" },
+            i - 0.4,
           );
         }
-        timeline.to(layers[4], { scale: 1.075, duration: 1, ease: "none" }, 4);
+        timeline.to(
+          layers[4],
+          { scale: 1.24, duration: 1, ease: "power1.inOut" },
+          4,
+        );
         controller.current = timeline.scrollTrigger || null;
         return () => {
           controller.current = null;
@@ -87,13 +96,25 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
       <div ref={scene} className={`house-scene stage-${active}`}>
         <div className="scene-grid" aria-hidden="true" />
         <div className="house-images">
+          <div className="house-setting" aria-hidden="true">
+            <Image
+              src="/images/stage-foundation.webp"
+              alt=""
+              fill
+              sizes="100vw"
+              priority
+            />
+          </div>
           {stages.slice(0, 5).map((s, i) => (
             <div
               className="stage-layer"
               key={s.name}
               style={
                 reduced
-                  ? { opacity: Math.min(active, 4) === i ? 1 : 0 }
+                  ? {
+                      opacity: Math.min(active, 4) === i ? 1 : 0,
+                      clipPath: "none",
+                    }
                   : i === 0
                     ? { opacity: 1 }
                     : { opacity: 0 }
@@ -103,7 +124,7 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
                 src={s.image}
                 alt={`${s.name} — conceptual visualization of the same residence`}
                 fill
-                sizes="(max-width: 760px) 100vw, 80vw"
+                sizes="100vw"
                 priority={i === 0}
                 loading={i === 0 ? undefined : "eager"}
               />
@@ -121,6 +142,7 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
           <div className="scene-kicker">
             <i /> {String(active + 1).padStart(2, "0")} / {stages[active].label}
           </div>
+          <p className="scene-chapter">{stages[active].name}</p>
           <h1 key={active}>{stages[active].copy}</h1>
           <p>
             {active === 5
@@ -175,7 +197,11 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
         </p>
         <button
           className="motion-toggle"
-          onClick={() => setManual(!manual)}
+          onClick={() => {
+            const top = (root.current?.getBoundingClientRect().top || 0) + window.scrollY;
+            window.scrollTo({top, behavior: 'instant'});
+            setManual(!manual);
+          }}
           aria-pressed={manual}
         >
           {manual ? "USE SCROLL STORY" : "VIEW WITHOUT MOTION"}
