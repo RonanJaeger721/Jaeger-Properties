@@ -579,7 +579,7 @@ svg {
   background: var(--bronze);
   border-radius: 50%;
 }
-.hero-title h1 {
+.hero-title .house-copy-heading {
   font-size: clamp(44px, 4.7vw, 78px);
   animation: hero-type 0.45s ease-out;
 }
@@ -2446,7 +2446,7 @@ footer {
     right: 3vw;
     top: 15px;
   }
-  .hero-title h1 {
+  .hero-title .house-copy-heading {
     font-size: clamp(44px, 5.6vw, 65px);
   }
   .house-scene {
@@ -2769,7 +2769,7 @@ footer {
     width: 88%;
     max-width: none;
   }
-  .hero-title h1 {
+  .hero-title .house-copy-heading {
     font-size: clamp(34px, 8vw, 49px);
     max-width: 480px;
     line-height: 1.02;
@@ -2843,7 +2843,7 @@ footer {
     top: auto;
     bottom: 142px;
   }
-  .stage-5 .hero-title h1 {
+  .stage-5 .hero-title .house-copy-heading {
     max-width: 370px;
   }
   .editorial-properties {
@@ -3742,7 +3742,7 @@ footer {
   .hero-title {
     bottom: 150px;
   }
-  .hero-title h1 {
+  .hero-title .house-copy-heading {
     font-size: 34px;
   }
   .hero-title p {

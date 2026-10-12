@@ -35,3 +35,6 @@ TypeScript, five catalogue logic tests and production compilation passed before 
 
 ## Glass revision
 Production build passed. 21 rendered checks across home, buy and contact at 320, 390, 430, 768, 1024, 1366 and 1920 found no horizontal overflow or clipped heading. Desktop progress glass and mobile 390 hero were visually inspected. Mobile menu opened and closed successfully. Existing data and form logic unchanged.
+
+## English / Harare reference-direction revision
+Final production build and five data filtering tests passed. 60 rendered checks tested Home, Buy, Rent, About, Developments and Contact at all ten requested widths. Three 320px lifestyle headings required smaller type/wrapping; the corrected 320px home recheck passed without document overflow or horizontally clipped headings. Desktop intro/menu and mobile 320 menu were visually inspected. Menu Buy route and mobile filtering returned the expected two Borrowdale listings. Browser error log review returned no errors. A working local preview was opened before release. Existing gallery, local enquiry/admin persistence and property detail functionality remain as verified above; no external backend is claimed.

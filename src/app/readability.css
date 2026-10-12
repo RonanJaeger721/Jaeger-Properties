@@ -58,7 +58,7 @@
   width: 530px;
   max-width: 48vw;
 }
-.house-story .hero-title h1 {
+.house-story .hero-title .house-copy-heading {
   font-size: clamp(40px, 3.65vw, 57px);
   max-width: 530px;
   line-height: 1.06;
@@ -157,7 +157,7 @@
   .build-control {
     width: 210px;
   }
-  .house-story .hero-title h1 {
+  .house-story .hero-title .house-copy-heading {
     font-size: 43px;
   }
   .house-story .stage-track button {
@@ -202,7 +202,7 @@
     width: 88%;
     bottom: 184px;
   }
-  .house-story .hero-title h1 {
+  .house-story .hero-title .house-copy-heading {
     font-size: clamp(33px, 8.5vw, 42px);
     max-width: 100%;
   }
@@ -341,7 +341,7 @@
   }
 }
 @media (max-width: 360px) {
-  .house-story .hero-title h1 {
+  .house-story .hero-title .house-copy-heading {
     font-size: 33px;
   }
   .house-story .hero-actions .button {

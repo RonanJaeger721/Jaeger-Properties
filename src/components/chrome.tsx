@@ -37,11 +37,14 @@ export function Header() {
         last.current = y;
       }
       setScrolled(y > 30);
-      const h = document.querySelector(".house-story");
+      const scenes = document.querySelectorAll(
+        ".house-story,.avenue-intro,.catalogue-intro,.about-intro,.development-intro",
+      );
       setDark(
-        h
-          ? h.getBoundingClientRect().bottom > 120
-          : path === "/" || path === "/developments/the-residence",
+        Array.from(scenes).some((el) => {
+          const rect = el.getBoundingClientRect();
+          return rect.top < 120 && rect.bottom > 120;
+        }),
       );
     };
     const scroll = () => {
@@ -146,7 +149,7 @@ export function Header() {
             aria-expanded={open}
             aria-controls="mobile-navigation"
           >
-            {open ? <X /> : <Menu />}
+            {open ? <X /> : <span>MENU</span>}
           </button>
         </div>
       </header>

@@ -8,6 +8,7 @@ import { stages } from "@/lib/data";
 import { ButtonLink } from "./ui";
 gsap.registerPlugin(ScrollTrigger);
 export function HouseStory({ compact = false }: { compact?: boolean }) {
+  const Heading = compact ? "h2" : "h1";
   const root = useRef<HTMLDivElement>(null),
     scene = useRef<HTMLDivElement>(null),
     controller = useRef<ScrollTrigger | null>(null);
@@ -150,7 +151,9 @@ export function HouseStory({ compact = false }: { compact?: boolean }) {
             <i /> {String(active + 1).padStart(2, "0")} / {stages[active].label}
           </div>
           <p className="scene-chapter">{stages[active].name}</p>
-          <h1 key={active}>{stages[active].copy}</h1>
+          <Heading className="house-copy-heading" key={active}>
+            {stages[active].copy}
+          </Heading>
           <p>
             {active === 5
               ? "Considered homes. A new way to discover them."

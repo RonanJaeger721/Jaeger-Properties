@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ArrowUpRight } from "lucide-react";
 import { HouseStory } from "./house-story";
+import { AvenueIntro } from "./avenue-intro";
 import { Photo, ButtonLink, PropertyCard, Eyebrow, TextLink } from "./ui";
 import { useDemo } from "./provider";
 import { SearchForm } from "./catalogue";
@@ -133,7 +134,27 @@ export function Home() {
     .slice(0, 3);
   return (
     <>
-      <HouseStory />
+      <AvenueIntro />
+      <section className="avenue-message section" id="introduction">
+        <Eyebrow>01 / OUR PERSPECTIVE</Eyebrow>
+        <div>
+          <h2>
+            A home is more
+            <br />
+            than an address.
+          </h2>
+          <p>
+            It is the light in the morning. Room for people you love. A quiet
+            corner that becomes your own. Explore a thoughtful collection
+            inspired by life in Harare.
+          </p>
+          <TextLink href="/about">OUR APPROACH</TextLink>
+        </div>
+        <Photo
+          src="/images/property-03.webp"
+          alt="Open residential living space — architectural inspiration"
+        />
+      </section>
       <section className="section featured-section" id="curated">
         <div className="section-heading">
           <div>
@@ -263,6 +284,19 @@ export function Home() {
           </p>
         </div>
       </section>
+      <section className="avenue-chapter section">
+        <Eyebrow>THE RESIDENCE / AN ARCHITECTURAL STUDY</Eyebrow>
+        <h2>
+          From the first line.
+          <br />
+          To a place to belong.
+        </h2>
+        <p>
+          Scroll through six conceptual stages of the same residence. Explore
+          each chapter with the progress control.
+        </p>
+      </section>
+      <HouseStory compact />
       <section className="about-teaser section philosophy-scene" id="approach">
         <div
           className="architecture-collage"
