@@ -1,0 +1,944 @@
+[
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Every remarkable home begins with a vision.",
+    "overflow": false,
+    "route": "/",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Find yournext home.",
+    "overflow": false,
+    "route": "/buy",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Find a space thatfeels like yours.",
+    "overflow": false,
+    "route": "/rent",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Glasshouse",
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "From the first lineto the final detail.",
+    "overflow": false,
+    "route": "/developments",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Every remarkable home begins with a vision.",
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "What are youlooking for?",
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "A beautiful home deservesa thoughtful introduction.",
+    "overflow": false,
+    "route": "/about",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Every next chapterbegins somewhere.",
+    "overflow": false,
+    "route": "/contact",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "A consideredcollection, managed.",
+    "overflow": false,
+    "route": "/admin",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 320
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 320
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 320
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 320
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 320
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 320
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 320
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 320
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 360
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 360
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 360
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 360
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 360
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 360
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 360
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 360
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 391
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 430
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 430
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 430
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 430
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 430
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 430
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 430
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 430
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 768
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 768
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 768
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 768
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 768
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 768
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 768
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 768
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 1024
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 1024
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 1024
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 1024
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 1024
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 1024
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 1024
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 1024
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 1366
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 1366
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 1366
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 1366
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 1366
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 1366
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 1366
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 1366
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/",
+    "width": 1920
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/buy",
+    "width": 1920
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/rent",
+    "width": 1920
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 1920
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/developments/the-residence",
+    "width": 1920
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/find-your-home",
+    "width": 1920
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/contact",
+    "width": 1920
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/about",
+    "width": 1920
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Glasshouse",
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Courtyard House",
+    "overflow": false,
+    "route": "/properties/the-courtyard-house",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Parkside Residence",
+    "overflow": false,
+    "route": "/properties/parkside-residence",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Garden Pavilion",
+    "overflow": false,
+    "route": "/properties/the-garden-pavilion",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Avondale Studio",
+    "overflow": false,
+    "route": "/properties/avondale-studio",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Willow Residence",
+    "overflow": false,
+    "route": "/properties/the-willow-residence",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Terrace",
+    "overflow": false,
+    "route": "/properties/the-terrace",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Marlborough Mews",
+    "overflow": false,
+    "route": "/properties/marlborough-mews",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Palm Villa",
+    "overflow": false,
+    "route": "/properties/the-palm-villa",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Northlight Apartment",
+    "overflow": false,
+    "route": "/properties/northlight-apartment",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Treehouse",
+    "overflow": false,
+    "route": "/properties/the-treehouse",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Rolf Valley Retreat",
+    "overflow": false,
+    "route": "/properties/rolf-valley-retreat",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Avondale Loft",
+    "overflow": false,
+    "route": "/properties/avondale-loft",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Greendale Cottage",
+    "overflow": false,
+    "route": "/properties/the-greendale-cottage",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Borrowdale Garden Villa",
+    "overflow": false,
+    "route": "/properties/borrowdale-garden-villa",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Westgate Terrace",
+    "overflow": false,
+    "route": "/properties/westgate-terrace",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Mount Pleasant Living",
+    "overflow": false,
+    "route": "/properties/mount-pleasant-living",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "The Highlands Pavilion",
+    "overflow": false,
+    "route": "/properties/the-highlands-pavilion",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Places you’veheld onto.",
+    "overflow": false,
+    "route": "/saved",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "Beautifully imagined.Clearly identified.",
+    "overflow": false,
+    "route": "/concept-notes",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "From the first lineto the final detail.",
+    "overflow": false,
+    "route": "/developments",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "heading": "A consideredcollection, managed.",
+    "overflow": false,
+    "route": "/admin",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-glasshouse",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-courtyard-house",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/parkside-residence",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-garden-pavilion",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/avondale-studio",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-willow-residence",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-terrace",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/marlborough-mews",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-palm-villa",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/northlight-apartment",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-treehouse",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/rolf-valley-retreat",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/avondale-loft",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-greendale-cottage",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/borrowdale-garden-villa",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/westgate-terrace",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/mount-pleasant-living",
+    "width": 375
+  },
+  {
+    "broken": [],
+    "clipped": [],
+    "overflow": false,
+    "route": "/properties/the-highlands-pavilion",
+    "width": 375
+  }
+]

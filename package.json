@@ -1,0 +1,43 @@
+{
+  "name": "jaeger-properties",
+  "version": "1.0.0",
+  "description": "Jaeger Media premium real estate design concept",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/catalogue.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonanJaeger721/Jaeger-Properties.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/RonanJaeger721/Jaeger-Properties/issues"
+  },
+  "homepage": "https://github.com/RonanJaeger721/Jaeger-Properties#readme",
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.55.0",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
